@@ -4,8 +4,9 @@ import iconDeletar from './iconDeletar.png';
 import iconEditar from './iconEditar.png';
 
 function Card({ video, onEdit, onDelete }) {
-    const videoId = video.url.split('v=')[1];
+    const videoId = video?.url ? video.url.split('v=')[1] : '';
     const embedUrl = `https://www.youtube.com/embed/${videoId}`;
+
 
     const handleEditClick = () => {
         onEdit(video); // Passa o vídeo para a função de edição

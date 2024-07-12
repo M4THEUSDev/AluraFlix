@@ -6,7 +6,7 @@
         { "id": 3, "title": "Video 3", "url": "https://www.youtube.com/watch?v=FJhMCi07T4A", "category": "frontEnd" ,"colors" : "#6BD1FF" }
       ],
       "backEnd": [
-        { "id": 1, "title": "Video 1", "url": "https://www.youtube.com/watch?v=FJhMCi07T4A", "category": "backEnd" ,"colors" : "#6BD1FF" },
+        { "id": 1, "title": "Video 1", "url": "https://www.youtube.com/watch?v=FJhMCi07T4A", "category": "backEnd" ,"colors" : "#00C86F" },
         { "id": 2, "title": "Video 2", "url": "https://www.youtube.com/watch?v=NpJVZtgSY4U", "category": "backEnd" ,"colors" : "#00C86F" },
         { "id": 3, "title": "Video 3", "url": "https://www.youtube.com/watch?v=FJhMCi07T4A", "category": "backEnd" ,"colors" : "#00C86F" }
       ],
@@ -14,11 +14,6 @@
         { "id": 1, "title": "Video 1", "url": "https://www.youtube.com/watch?v=FJhMCi07T4A", "category": "mobile" , "colors" : "#FFBA05"},
         { "id": 2, "title": "Video 2", "url": "https://www.youtube.com/watch?v=NpJVZtgSY4U", "category": "mobile" , "colors" : "#FFBA05"},
         { "id": 3, "title": "Video 3", "url": "https://www.youtube.com/watch?v=FJhMCi07T4A", "category": "mobile" , "colors" : "#FFBA05"}
-      ],
-      "colors": {
-        "frontEnd": "#6BD1FF",
-        "backEnd": "#00C86F",
-        "mobile": "#FFBA05"
-      }
+      ]
     }
   }

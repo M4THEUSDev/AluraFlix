@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { VideoProvider } from './contexts/VideoContext';
+// import { VideoProvider } from './contexts/VideoContext';
 import Footer from 'components/Footer';
 import Inicio from './pages/Inicio';
 import NovoVideo from './pages/NovoVideo';
 
 function AppRoutes() {
     return (
-        <VideoProvider>
+        // <VideoProvider>
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Inicio />} />
@@ -15,7 +15,7 @@ function AppRoutes() {
             </Routes>
             <Footer />
         </BrowserRouter>
-        </VideoProvider>
+        // </VideoProvider>
     );
 }
 
