@@ -1,0 +1,33 @@
+
+
+.section {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.section title {
+    color: var(--branco);
+}
+
+.button {
+    margin: 3%;
+    width: 100%; /* Ajusta a largura para ocupar 100% do espaço disponível */
+    max-width: 432px;
+    height: 70px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: var(--azul-bebe);
+    border: none;
+    color: var(--branco);
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.videoList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

@@ -1,0 +1,29 @@
+.add-video-botao{
+    width: 180.13px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    opacity: 1;
+    color: #ffffff;
+  }
+  
+  .add-video-botao:hover {
+    background-color: rgba(0, 0, 0, 0.898);
+    color: #2271D1;
+    border: 2px solid #2271D1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 4px #2271D1 inset;
+    opacity: 1;
+  }

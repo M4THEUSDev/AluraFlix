@@ -1,0 +1,224 @@
+.tituloConteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.75rem;
+    font-weight: bold;
+    color: var(--branco);
+    margin-top: 71px;
+    margin-bottom: 10px;
+}
+
+.titulo__secundario {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--branco);
+    width: 100%;
+}
+
+
+
+.h1Card{
+    display: flex;
+    color: var(--branco);
+    margin: 71px 0 10px 0;
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.h1Card::before, .h1Card::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px; /* Altura das barras */
+    background-color: #a5a5a51a; /* Cor das barras */
+    position: absolute;
+    left: 0;
+}
+
+.h1Card::before {
+    top: -20px; /* Ajuste a posição vertical conforme necessário */
+}
+
+.h1Card::after {
+    bottom: -20px; /* Ajuste a posição vertical conforme necessário */
+}
+.novo-video-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 974px;
+    height: 900px;
+    background: transparent;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.container {
+    width: 70%;
+    height: 100%;
+}
+
+h2 {
+    width: 575px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+label {
+    width: 100%;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: flex-start;
+    text-align: left;
+    position: relative;
+    box-sizing: border-box;
+}
+
+input, textarea, select {
+    width: 100%;
+    height: 62px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 2px solid #a5a5a538;
+    outline: none;
+    margin-top: 10px;
+    color: #FFFFFF;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+
+select option {
+    color: #FFFFFF;
+    background-color: var(--preto); /* Cor de fundo dos options */
+}
+
+select:focus {
+    border-color: #A5A5A5; /* Cor da borda ao focar */
+}
+
+.desc {
+    width: 100%; /* Ajusta a largura do container pai */
+    text-align: left;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start; /* Centraliza o conteúdo */
+}
+
+.desc label {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 573px; /* Garante que o label tenha a mesma largura do textarea */
+}
+
+.desc textarea {
+    max-width: 573px; /* Define a largura fixa do textarea */
+    height: 220px; 
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid #A5A5A5;
+    outline: none;
+    color: #FFFFFF;
+    background: transparent;
+    box-sizing: border-box;
+    resize: vertical; /* Permite o redimensionamento vertical */
+}
+
+
+
+input::placeholder, textarea::placeholder, select::placeholder {
+    color: lightgray;
+}
+
+select option {
+    color: lightgray;
+}
+
+textarea {
+    height: auto;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 71px;
+    gap: 30px;
+}
+
+.buttonNewVideo {
+    width: 180.13px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    opacity: 1;
+    color: #ffffff;
+}
+
+.buttonNewVideo:hover {
+    background-color: rgba(0, 0, 0, 0.898);
+    color: #2271D1;
+    border: 2px solid #2271D1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 4px #2271D1 inset;
+    opacity: 1;
+}

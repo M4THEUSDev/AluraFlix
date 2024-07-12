@@ -1,0 +1,174 @@
+.modalBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escurecido */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.rowModal {
+    top: 20px;
+    width: 974px; /* Largura ajustável do modal */
+    height: 900px;
+    background-color: #03122F;
+    border-radius: 16px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden; /* Evita que conteúdo interno cause overflow */
+}
+
+
+
+.textCard h1 {
+    margin: 10px;
+    max-width: 100%;
+    color: #2271D1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.75rem;
+}
+
+.h1Style {
+    max-width: 100%;
+    width: 100%;
+    margin: 8px;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.labelStyle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.closeButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.closeButton img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.textCard {
+    width: 100%; /* Garante que a div ocupe a largura total do container */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    margin-bottom: 20px; /* Adicionei margem inferior para separar do próximo elemento */
+
+}
+
+
+.textCard h1{
+    max-width: 100%;
+    color: #2271D1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.75rem;
+    padding-right: 180px;
+    box-sizing: border-box;
+}
+
+.h1Style{
+    max-width: 100%;
+    width: 560px;
+    margin: 8px;
+    display: flex;
+    text-align: left;
+}
+.h1Style{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+label {
+    width: 100%;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+
+label>input,
+label>textarea,
+label>select
+{
+    border: 3px solid #2271D1;
+}
+
+label>input,
+label>select,
+label>textarea {
+    width: 100%; /* Ajusta a largura para 100% do container do label */
+    max-width: 573px; /* Limita a largura máxima */
+    height: 62px; /* Ajuste de altura */
+    margin: 0;
+}
+
+
+label>textarea {
+    height: 112px; /* Ajuste de altura específico para textarea */
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.modalButtons{
+    width: 100%; /* Ajusta a largura para 100% do container do label */
+    max-width: 573px; /* Limita a largura máxima */
+    height: 62px; /* Ajuste de altura */
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonNewVideo {
+    width: 180.13px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    opacity: 1;
+    color: #ffffff;
+}
+
+.buttonNewVideo:hover {
+    background-color: rgba(0, 0, 0, 0.898);
+    color: #2271D1;
+    border: 2px solid #2271D1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 4px #2271D1 inset;
+    opacity: 1;
+}
