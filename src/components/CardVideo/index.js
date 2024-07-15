@@ -4,8 +4,9 @@ import iconDeletar from './iconDeletar.png';
 import iconEditar from './iconEditar.png';
 
 function Card({ video, onEdit, onDelete }) {
-    const videoId = video?.url ? video.url.split('v=')[1] : '';
-    const embedUrl = `https://www.youtube.com/embed/${videoId}`;
+    const videoIdMatch = video?.url ? video.url.match(/(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:[^\/\n\s]+\/\S+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^&\n?]+)/) : null;
+    const videoId = videoIdMatch ? videoIdMatch[1] : '';
+    const embedUrl = videoId ? `https://www.youtube.com/embed/${videoId}` : '';;
 
 
     const handleEditClick = () => {
@@ -21,7 +22,6 @@ function Card({ video, onEdit, onDelete }) {
             <iframe
                 src={embedUrl}
                 title={video.title}
-                frameBorder="0"
                 allowFullScreen
                 className={styles.cardImg}
             ></iframe>

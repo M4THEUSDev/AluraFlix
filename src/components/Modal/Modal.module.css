@@ -12,16 +12,17 @@
 }
 
 .rowModal {
-    top: 20px;
-    width: 974px; /* Largura ajustável do modal */
-    height: 900px;
+    width: 100vw; /* 60% da largura da viewport */
+    max-width: 900px; /* Largura máxima */
+    height: auto; /* Altura ajustável */
+    max-height: 100vh; /* 70% da altura da viewport */
     background-color: #03122F;
     border-radius: 16px;
     box-sizing: border-box;
     position: relative;
-    overflow: hidden; /* Evita que conteúdo interno cause overflow */
+    padding: 20px; /* Espaçamento interno */
+    overflow: auto; /* Evita rolagem */
 }
-
 
 
 .textCard h1 {

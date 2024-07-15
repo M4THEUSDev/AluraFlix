@@ -7,11 +7,11 @@ const VideoList = ({ category }) => {
 
   return (
     <div>
-      {videos[category] && videos[category].map(video => (
+      {videos[category] && videos[category].map((video) => (
         <div key={video.id}>
           <h3>{video.title}</h3>
-          <a href={video.url} target="_blank" rel="noopener noreferrer">Watch</a>
-          <button onClick={() => deleteVideo(category, video.id)}>Delete</button>
+          <a href={video.url} target="_blank" rel="noopener noreferrer">Assistir</a>
+          <button onClick={() => deleteVideo(category, video.id)}>Deletar</button>
         </div>
       ))}
     </div>
