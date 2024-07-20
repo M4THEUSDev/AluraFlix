@@ -68,3 +68,84 @@
     border-radius: 10px; /* Arredonda os cantos da imagem */
     border: solid 4px #6BD1FF;
 }
+
+
+
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+    .container {
+        width: 100%; /* Ajuste conforme necessário */
+        gap: 35px;
+    }
+
+    .title {
+        margin: 10px 0;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: var(--branco);
+        font-weight: 400;
+    }
+  }
+  
+  /* Menor que o padrão 960 (dispositivos e navegadores) */
+  @media only screen and (max-width: 959px) {}
+  
+  /* Tamanho retrato do tablet no padrão 960 (dispositivos e navegadores) */
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .container {
+        width: 100%; /* Ajuste conforme necessário */
+    }
+
+    .title {
+        margin: 10px 0;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: var(--branco);
+        font-weight: 400;
+    }
+   
+  }
+  
+  /* Todos os tamanhos de celular (dispositivos e navegador) */
+  @media only screen and (max-width: 767px) {
+    .container {
+        padding: 10px;
+        width: 100%; /* Ajuste conforme necessário */
+        gap: 5px;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .button {
+        width: 256px;
+        height: 82px;
+        font-size: 2.5rem;
+    }
+
+    
+    .image {
+        max-width: 100%;
+        width: 360px;
+        height: 300px;
+        box-sizing: border-box;
+    }
+    
+  }
+  
+  /* Tamanho de paisagem móvel para retrato de tablet (dispositivos e navegadores) */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+
+  @media only screen and (min-width: 480px) and (max-width: 659px) {
+    .container {
+        display: none;
+    }
+  }
+  
+  /* Tamanho retrato móvel para tamanho paisagem móvel (dispositivos e navegadores) */
+  @media only screen and (max-width: 479px) {
+    .container {
+        display: none;
+    }
+  }

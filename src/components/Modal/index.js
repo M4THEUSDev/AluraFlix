@@ -116,7 +116,7 @@ function EditarCard({ video, onClose }) {
                         </div>
                         <div className={styles.modalButtons}>
                             <button type="submit" className={styles.buttonNewVideo}>GUARDAR</button>
-                            <button type="button" className={styles.buttonNewVideo} onClick={(e) => cleanForms(setFormData, videoInicial, e)}>LIMPAR</button>
+                            <button type="button" className={styles.buttonCleanVideo} onClick={(e) => cleanForms(setFormData, videoInicial, e)}>LIMPAR</button>
                         </div>
                     </form>
                 </div>

@@ -9,3 +9,24 @@
     position: relative;
     width: 100%;
 }
+
+@media only screen and (min-width: 960px) and (max-width: 1024px) { 
+    .footer {
+        max-width: 1024px;
+    } 
+  }
+  
+  /* Menor que o padrão 960 (dispositivos e navegadores) */
+  @media only screen and (max-width: 959px) {}
+  
+  /* Tamanho retrato do tablet no padrão 960 (dispositivos e navegadores) */
+  @media only screen and (min-width: 768px) and (max-width: 959px) {}
+  
+  /* Todos os tamanhos de celular (dispositivos e navegador) */
+  @media only screen and (max-width: 767px) {}
+  
+  /* Tamanho de paisagem móvel para retrato de tablet (dispositivos e navegadores) */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {}
+  
+  /* Tamanho retrato móvel para tamanho paisagem móvel (dispositivos e navegadores) */
+  @media only screen and (max-width: 479px) {}

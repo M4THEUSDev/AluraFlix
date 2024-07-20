@@ -1,15 +1,18 @@
-
 .cabecalho {
   width: 100%;
   height: 125px;
-  padding: 0 51.15px; /* Espaçamento de 51.15px nos lados esquerdo e direito */
+  padding: 0 51.15px;
+  /* Espaçamento de 51.15px nos lados esquerdo e direito */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--cinza); 
-  box-sizing: border-box; /* Mantém o padding dentro da largura total */
-  margin-left: auto; /* Empurra o cabeçalho para o centro */
-  margin-right: auto; /* Empurra o cabeçalho para o centro */
+  background-color: var(--cinza);
+  box-sizing: border-box;
+  /* Mantém o padding dentro da largura total */
+  margin-left: auto;
+  /* Empurra o cabeçalho para o centro */
+  margin-right: auto;
+  /* Empurra o cabeçalho para o centro */
 }
 
 
@@ -21,26 +24,120 @@
   background-color: var(--preto);
 }
 
-  
+
+.cabecalho nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.cabecalho nav ul li {
+  margin-left: 20px;
+}
+
+.cabecalho nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.cabecalho img {
+  max-width: 168px;
+  max-height: 40px;
+  vertical-align: middle;
+  user-select: none;
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
+
+
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+  .cabecalho {
+    background-color: var(--preto);
+  }
+}
+
+/* Menor que o padrão 960 (dispositivos e navegadores) */
+@media only screen and (max-width: 959px) {}
+
+/* Tamanho retrato do tablet no padrão 960 (dispositivos e navegadores) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .cabecalho {
+    background-color: var(--preto);
+  }
+}
+
+/* Todos os tamanhos de celular (dispositivos e navegador) */
+@media only screen and (max-width: 767px) {
+  .cabecalho {
+    background-color: var(--preto);
+  }
+}
+
+/* Tamanho de paisagem móvel para retrato de tablet (dispositivos e navegadores) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .cabecalho {
+    width: 100%;
+    height: 125px;
+    padding: 0 51.15px;
+    /* Espaçamento de 51.15px nos lados esquerdo e direito */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box; 
+  }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 659px) {
+
+  .cabecalho {
+    width: 100%;
+    height: 125px;
+    padding: 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; 
+  }
+
+  .cabecalho img {
+    display: none;
+  }
+
   .cabecalho nav ul {
     list-style: none;
     display: flex;
+    gap: 50px;
   }
   
-  .cabecalho nav ul li {
-    margin-left: 20px;
+}
+
+
+
+/* Tamanho retrato móvel para tamanho paisagem móvel (dispositivos e navegadores) */
+@media only screen and (max-width: 479px) {
+  .cabecalho {
+    width: 100%;
+    height: 125px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; 
   }
-  
-  .cabecalho nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
+
   .cabecalho img {
-    max-width: 168px;
-    max-height: 40px;
-    vertical-align: middle;
-    user-select: none;
-    pointer-events: none;
-    -webkit-user-drag: none;
+    display: none;
   }
+
+  .cabecalho nav ul {
+    list-style: none;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .cabecalho nav ul li {
+    list-style: none;
+    display: flex;
+    box-sizing: border-box;
+  }
+  
+}

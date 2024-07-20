@@ -17,6 +17,7 @@
     transition: all 0.3s;
     opacity: 1;
     color: #ffffff;
+    box-sizing: border-box;
   }
   
   .home-botao:hover {
@@ -26,4 +27,71 @@
     border-radius: 10px;
     box-shadow: 0px 0px 12px 4px #2271D1 inset;
     opacity: 1;
+  }
+
+  .home-botao .icon {
+    display: none;
+  }
+
+  @media only screen and (min-width: 960px) and (max-width: 1024px){
+ 
+  }
+  
+  /* Menor que o padrão 960 (dispositivos e navegadores) */
+  @media only screen and (max-width: 959px) {
+      
+  }
+  
+  /* Tamanho retrato do tablet no padrão 960 (dispositivos e navegadores) */
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+      
+  }
+  
+  /* Todos os tamanhos de celular (dispositivos e navegador) */
+  @media only screen and (max-width: 767px) {
+      
+  }
+  
+  /* Tamanho de paisagem móvel para retrato de tablet (dispositivos e navegadores) */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+  
+      
+  }
+  
+  /* Tamanho retrato móvel para tamanho paisagem móvel (dispositivos e navegadores) */
+  @media only screen and (max-width: 479px) {
+  
+    .home-botao {
+      width: 100%;
+      /* Ajusta a largura para ocupar 100% do espaço disponível */
+      max-width: 180px;
+      /* Define a largura máxima do botão */
+      height: 54px;
+      /* Define a altura do botão */
+      display: flex;
+      /* Usa flexbox para alinhar o conteúdo */
+      align-items: center;
+      /* Alinha verticalmente o conteúdo ao centro */
+      justify-content: center;
+      /* Alinha horizontalmente o conteúdo ao centro */
+      background-color: transparent;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 24px;
+      text-align: center;
+      text-decoration: none;
+      border: 2px solid #FFFFFF;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s;
+      opacity: 1;
+      color: #ffffff;
+      box-sizing: border-box;
+      /* Inclui bordas e padding na largura e altura */
+      padding: 10px;
+      /* Adiciona padding conforme necessário */
+    }
+  
+  
   }

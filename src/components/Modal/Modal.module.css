@@ -4,7 +4,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo escurecido */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fundo escurecido */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,16 +13,22 @@
 }
 
 .rowModal {
-    width: 100vw; /* 60% da largura da viewport */
-    max-width: 900px; /* Largura máxima */
-    height: auto; /* Altura ajustável */
-    max-height: 100vh; /* 70% da altura da viewport */
+    width: 100vw;
+    /* 60% da largura da viewport */
+    max-width: 900px;
+    /* Largura máxima */
+    height: auto;
+    /* Altura ajustável */
+    max-height: 100vh;
+    /* 70% da altura da viewport */
     background-color: #03122F;
     border-radius: 16px;
     box-sizing: border-box;
     position: relative;
-    padding: 20px; /* Espaçamento interno */
-    overflow: auto; /* Evita rolagem */
+    padding: 20px;
+    /* Espaçamento interno */
+    overflow: auto;
+    /* Evita rolagem */
 }
 
 
@@ -65,15 +72,18 @@
 
 
 .textCard {
-    width: 100%; /* Garante que a div ocupe a largura total do container */
+    width: 100%;
+    /* Garante que a div ocupe a largura total do container */
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    margin-bottom: 20px; /* Adicionei margem inferior para separar do próximo elemento */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    margin-bottom: 20px;
+    /* Adicionei margem inferior para separar do próximo elemento */
 
 }
 
 
-.textCard h1{
+.textCard h1 {
     max-width: 100%;
     color: #2271D1;
     font-family: 'Roboto', sans-serif;
@@ -82,14 +92,15 @@
     box-sizing: border-box;
 }
 
-.h1Style{
+.h1Style {
     max-width: 100%;
     width: 560px;
     margin: 8px;
     display: flex;
     text-align: left;
 }
-.h1Style{
+
+.h1Style {
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -109,23 +120,26 @@ label {
 
 label>input,
 label>textarea,
-label>select
-{
+label>select {
     border: 3px solid #2271D1;
 }
 
 label>input,
 label>select,
 label>textarea {
-    width: 100%; /* Ajusta a largura para 100% do container do label */
-    max-width: 573px; /* Limita a largura máxima */
-    height: 62px; /* Ajuste de altura */
+    width: 100%;
+    /* Ajusta a largura para 100% do container do label */
+    max-width: 573px;
+    /* Limita a largura máxima */
+    height: 62px;
+    /* Ajuste de altura */
     margin: 0;
 }
 
 
 label>textarea {
-    height: 112px; /* Ajuste de altura específico para textarea */
+    height: 112px;
+    /* Ajuste de altura específico para textarea */
 }
 
 label {
@@ -135,10 +149,13 @@ label {
 }
 
 
-.modalButtons{
-    width: 100%; /* Ajusta a largura para 100% do container do label */
-    max-width: 573px; /* Limita a largura máxima */
-    height: 62px; /* Ajuste de altura */
+.modalButtons {
+    width: 100%;
+    /* Ajusta a largura para 100% do container do label */
+    max-width: 573px;
+    /* Limita a largura máxima */
+    height: 62px;
+    /* Ajuste de altura */
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -172,4 +189,133 @@ label {
     border-radius: 10px;
     box-shadow: 0px 0px 12px 4px #2271D1 inset;
     opacity: 1;
+}
+.buttonCleanVideo {
+    width: 180.13px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    opacity: 1;
+    color: #ffffff;
+}
+
+.buttonNewVideo:hover {
+    background-color: rgba(0, 0, 0, 0.898);
+    color: #2271D1;
+    border: 2px solid #2271D1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 4px #2271D1 inset;
+    opacity: 1;
+}
+
+
+@media only screen and (min-width: 960px) and (max-width: 1024px) {}
+
+/* Menor que o padrão 960 (dispositivos e navegadores) */
+@media only screen and (max-width: 959px) {}
+
+/* Tamanho retrato do tablet no padrão 960 (dispositivos e navegadores) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* Todos os tamanhos de celular (dispositivos e navegador) */
+@media only screen and (max-width: 767px) {}
+
+/* Tamanho de paisagem móvel para retrato de tablet (dispositivos e navegadores) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Tamanho retrato móvel para tamanho paisagem móvel (dispositivos e navegadores) */
+@media only screen and (max-width: 479px) {
+    .modalBackdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+    }
+
+    .rowModal {
+        width: 290px;
+        max-width: 479px;
+        min-width: 200px;
+        height: auto;
+        max-height: 100vh;
+        background-color: #03122F;
+        border-radius: 16px;
+        box-sizing: border-box;
+        padding: 0px;
+        overflow: auto;
+    }
+
+    .labelContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    label>textarea {
+        height: 112px;
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 200px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .h1Style {
+        margin: 15px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textCard h1 {
+        margin: 20px;
+        font-size: 1.7rem;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .h1Style {
+        max-width: 100%;
+        width: 370px;
+        display: flex;
+        text-align: center;
+    }
+
+    .modalButtons {
+        width: 100%;
+    }
+
+    .buttonNewVideo,
+    .buttonCleanVideo{
+        width: 120px;
+        height: 54px;
+        margin: 0 15px;
+    }
+
+   
 }

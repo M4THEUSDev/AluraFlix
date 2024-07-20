@@ -9,7 +9,7 @@ function Cabecalho({ cor }) {
     return (
         <header className={`${styles.cabecalho} ${styles[cor]}`}>
             <Link to="./">
-                <img src={logoAlura} alt="Logo da Alura"></img>
+                <img src={logoAlura} alt="Logo da Alura"/>
             </Link>
             <nav>
                 <ul>
@@ -22,3 +22,4 @@ function Cabecalho({ cor }) {
 }
 
 export default Cabecalho;
+
