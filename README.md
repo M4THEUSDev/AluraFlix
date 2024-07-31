@@ -18,7 +18,7 @@
 
 ### Interface do Usuário
 
-<img src="Portfolio.png"  alt="Imagem do Portfolio." width="1300">
+<img src="AluraFlix.png"  alt="Imagem do AluraFlix." width="1300">
 
 ## :hammer: Caracteristicas
 
