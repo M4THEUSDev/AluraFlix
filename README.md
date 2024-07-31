@@ -1,70 +1,45 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1> AluraFlix 🍿 </h1>
 
-## Available Scripts
+<p>O Aluraflix é uma plataforma inspirada no Netflix, voltada para a educação. Seu objetivo é sugerir vídeos relacionados aos interesses educacionais dos usuários, organizados em categorias personalizáveis. Além de explorar os vídeos sugeridos, você pode adicionar novas categorias e vídeos, tornando a plataforma adaptável às suas necessidades de aprendizado.</p>
 
-In the project directory, you can run:
+## :dizzy: Tecnologias utilizadas
 
-### `npm start`
+<div>
+  <img src="https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## :computer: Visão Geral do Projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Interface do Usuário
 
-### `npm test`
+<img src="Portfolio.png"  alt="Imagem do Portfolio." width="1300">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :hammer: Caracteristicas
 
-### `npm run build`
+- `Sobre Mim:` O projeto inclui informações sobre mim, como formações acadêmicas, experiências e uma descrição detalhada.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `Skills:` Minhas habilidades de HardSkills e SoftSkills.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `Hobbies:` Meus hobbies, o que gosto de fazer nas horas vagas e no meu dia a dia.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `Formação:` Minhas formações, incluindo informações desde o começo, até o momento.
 
-### `npm run eject`
+- `Projetos:` Meus projetos desenvolvidos.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `Contato:` Parte de contato, onde você poderá se conectar comigo para possível networking.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :mag: Demonstração
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Para uma experiência completa e visual do projeto em funcionamento, você pode acessar a demonstração interativa do projeto, [clique aqui.](https://repository-lovat.vercel.app/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## :open_file_folder: Como Utilizar
 
-## Learn More
+1. Clone o repositório em seu ambiente de desenvolvimento.
+2. Abra o arquivo index.html em seu navegador preferido.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :student: Autor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto foi desenvolvido, com base nas aulas do curso da Alura em parceria com a OracleNextEducation, como parte do aprendizado em desenvolvimento web.
