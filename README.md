@@ -22,21 +22,20 @@
 
 ## :hammer: Caracteristicas
 
-- `Sobre Mim:` O projeto inclui informações sobre mim, como formações acadêmicas, experiências e uma descrição detalhada.
+- `Botão:` Componente reutilizável para ações como submissão de formulários e navegação.
 
-- `Skills:` Minhas habilidades de HardSkills e SoftSkills.
+- `Header:` O cabeçalho da aplicação, contendo a navegação principal e a identidade visual do Aluraflix.
 
-- `Hobbies:` Meus hobbies, o que gosto de fazer nas horas vagas e no meu dia a dia.
+- `Banner:` Um destaque visual que apresenta conteúdos importantes ou novidades na plataforma.
 
-- `Formação:` Minhas formações, incluindo informações desde o começo, até o momento.
+- `Footer:` O rodapé da aplicação, que pode incluir informações de contato, links úteis e outras informações relevantes.
 
-- `Projetos:` Meus projetos desenvolvidos.
+- `Página Padrão:` Estrutura base para todas as páginas da aplicação, garantindo consistência no layout e na experiência do usuário.
 
-- `Contato:` Parte de contato, onde você poderá se conectar comigo para possível networking.
 
 ## :mag: Demonstração
 
-Para uma experiência completa e visual do projeto em funcionamento, você pode acessar a demonstração interativa do projeto, [clique aqui.](https://repository-lovat.vercel.app/)
+Para uma experiência completa e visual do projeto em funcionamento, você pode acessar a demonstração interativa do projeto, [clique aqui.](https://alura-flix-eight-ashy.vercel.app/)
 
 ## :open_file_folder: Como Utilizar
 
@@ -45,4 +44,4 @@ Para uma experiência completa e visual do projeto em funcionamento, você pode 
 
 ## :student: Autor
 
-Este projeto foi desenvolvido, com base nas aulas do curso da Alura em parceria com a OracleNextEducation, como parte do aprendizado em desenvolvimento web.
+Este repositório contém o projeto Aluraflix, desenvolvido como o desafio final para a formação no curso proporcionado pela Oracle em parceria com a Alura.
